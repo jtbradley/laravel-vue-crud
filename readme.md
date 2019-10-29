@@ -1,3 +1,45 @@
+Simple CRUD application with Laravel backend and Vue frontend.
+
+Frontend built on top of this laravel 5.8 API: https://github.com/jtbradley/Simple-Laravel-CRUD-API
+
+<h4>Install Dependencies</h4>
+<code>composer install</code>
+
+<h4>Run Migrations</h4>
+<code>php artisan migrate</code>
+
+<h4>Import Articles</h4>
+<code>php artisan db:seed</code>
+
+<h4>If you get an error about an encryption key</h4>
+<code>php artisan key:generate</code>
+
+<h4>Install JS dependencies</h4>
+<code>php artisan migrate</code>
+
+<h4>Watch Files</h4>
+<code>npm run watch</code>
+
+<h2>Endpoints</h2>
+
+<h4>List all articles with links and meta</h4>
+<code>GET api/articles</code>
+
+<h4>Get single article</h4>
+<code>GET api/article/{id}</code>
+
+<h4>Delete article</h4>
+<code>DELETE api/article/{id}</code>
+
+<h4>Add article</h4>
+<code>POST api/article content:title/body</code>
+
+<h4>Update article</h4>
+<code>PUT api/article content:article_id/title/body</code>
+
+<h4></h4>
+<code></code>
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
