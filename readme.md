@@ -15,7 +15,7 @@ Frontend built on top of this laravel 5.8 API: https://github.com/jtbradley/Simp
 <code>php artisan key:generate</code>
 
 <h4>Install JS dependencies</h4>
-<code>php artisan migrate</code>
+<code>npm install</code>
 
 <h4>Watch Files</h4>
 <code>npm run watch</code>
